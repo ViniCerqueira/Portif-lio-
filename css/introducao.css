@@ -33,14 +33,12 @@
   z-index: -1;
 }
 
-.introducao p {
-  font-size: 1.5rem;
-  color: #525252;
-}
-
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
+  }
+  .introducao-texto {
+    font-size: 1.2rem;
   }
 }
 
@@ -51,6 +49,9 @@
   }
   .introducao h1 {
     font-size: 2rem;
+  }
+  .introducao-texto {
+    font-size: 1.0rem;
   }
   .introducao h1::before {
     width: 40px;
